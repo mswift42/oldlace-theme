@@ -1,4 +1,4 @@
-;;; oldlace-theme.el --- Emacs 24 theme with a light background.
+;;; oldlace-theme.el --- Emacs 24 theme with a 'oldlace' background.
 
 ;; Copyright (C) 2014 , martin haesler
 
@@ -24,31 +24,31 @@
 
 ;; This file is not part of Emacs.
 
-;;; Commentary:
+;;; Commentary: light, low-contrast theme with background in oldlace color.
 
 ;;; Code:
 
-(deftheme oldlace )
+(deftheme oldlace)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#454545")
-       (fg2 "#525252")
-       (fg3 "#606060")
-       (fg4 "#6e6e6e")
+       (fg1 "#525252")
+       (fg2 "#5e5e5e")
+       (fg3 "#6b6b6b")
+       (fg4 "#787878")
        (bg1 "#fdf5e6")
        (bg2 "#e6dfd1")
        (bg3 "#d0c9bd")
        (bg4 "#bab4a9")
-       (key2 "#845772")
-       (key3 "#683d57")
-       (builtin "#63322e")
-       (keyword "#754462")
-       (const   "#4b5079")
-       (comment "#858585")
-       (func    "#375d39")
-       (str     "#5b522a")
-       (type    "#326066")
-       (var     "#885542")
-       (warning "#f71e1e"))
+       (key2 "#546789")
+       (key3 "#394d6d")
+       (builtin "#7b4135")
+       (keyword "#3f567b")
+       (const   "#64502f")
+       (comment "#949494")
+       (func    "#714355")
+       (str     "#305f5e")
+       (type    "#634575")
+       (var     "#3f5b32")
+       (warning "#fa0c0c"))
    (custom-theme-set-faces
    'oldlace
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -166,7 +166,7 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'oldlace )
+(provide-theme 'oldlace)
 
 ;; Local Variables:
 ;; no-byte-compile: t
