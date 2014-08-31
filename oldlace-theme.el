@@ -1,4 +1,4 @@
-;;; oldlace-theme.el --- Emacs 24 theme with a 'oldlace' background.
+;;; oldlace-theme.el --- Emacs 24 theme with an 'oldlace' background.
 
 ;; Copyright (C) 2014 , martin haesler
 
