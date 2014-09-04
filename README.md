@@ -3,7 +3,7 @@ oldlace-theme
 
 emacs24 theme with a light-background (background-color oldlace).
 
-Created with [Emacs Theme Creator](emacs-theme-creator.appspot.com).
+Created with [Emacs Theme Creator](http://emacs-theme-creator.appspot.com).
 
 Screenshots:
 ------------
