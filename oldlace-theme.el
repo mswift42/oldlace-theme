@@ -126,6 +126,8 @@
    `(js2-jsdoc-html-tag-name ((,class (:foreground ,key2))))
    `(js2-external-variable ((,class (:foreground ,type  ))))
    `(js2-function-param ((,class (:foreground ,const))))
+   `(js2-jsdoc-value ((,class (:foreground ,str))))
+   `(js2-private-member ((,class (:foreground ,fg3))))
    `(warning ((,class (:foreground ,warning))))
    `(ac-completion-face ((,class (:underline t :foreground ,keyword))))
    `(info-quoted-name ((,class (:foreground ,builtin))))
