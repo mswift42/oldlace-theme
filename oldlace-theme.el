@@ -228,8 +228,14 @@
    `(web-mode-html-attr-name-face ((,class (:foreground ,func))))
    `(web-mode-html-attr-value-face ((,class (:foreground ,keyword))))
    `(web-mode-warning-face ((t (:inherit ,font-lock-warning-face))))
-   `(web-mode-html-tag-face ((t (:foreground ,builtin))))))
-
+   `(web-mode-html-tag-face ((t (:foreground ,builtin))))
+   `(jde-java-font-lock-package-face ((t (:foreground ,var))))
+   `(jde-java-font-lock-public-face ((t (:foreground ,keyword))))
+   `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
+   `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
+   `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+   `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
+ 
 
 ;;;###autoload
 (when load-file-name
