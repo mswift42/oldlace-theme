@@ -234,6 +234,7 @@
    `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
    `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
    `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+   `(jde-java-font-lock-protected-face ((t (:foreground ,keyword))))
    `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
  
 
