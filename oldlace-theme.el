@@ -210,7 +210,7 @@
    `(company-preview-search ((,class (:foreground ,type :background ,bg1))))
    `(company-scrollbar-bg ((,class (:background ,bg3))))
    `(company-scrollbar-fg ((,class (:foreground ,keyword))))
-   `(company-tooltip ((,class (:foreground ,fg2 :background ,bg1 :bold t))))
+   `(company-tooltip ((,class (:foreground ,fg1 :background "#f9f9f9" :bold t))))
    `(company-tooltop-annotation ((,class (:foreground ,const))))
    `(company-tooltip-common ((,class ( :foreground ,fg3))))
    `(company-tooltip-common-selection ((,class (:foreground ,str))))
