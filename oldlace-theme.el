@@ -215,7 +215,7 @@
    `(company-tooltip-common ((,class ( :foreground ,fg3))))
    `(company-tooltip-common-selection ((,class (:foreground ,str))))
    `(company-tooltip-mouse ((,class (:inherit highlight))))
-   `(company-tooltip-selection ((,class (:background ,bg3 :foreground ,fg3))))
+   `(company-tooltip-selection ((,class (:background "#efefef"))))
    `(company-template-field ((,class (:inherit region))))
    `(web-mode-builtin-face ((,class (:inherit ,font-lock-builtin-face))))
    `(web-mode-comment-face ((,class (:inherit ,font-lock-comment-face))))
