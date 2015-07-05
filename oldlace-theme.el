@@ -164,6 +164,7 @@
    `(magit-branch ((,class (:foreground ,const :weight bold))))
    `(magit-log-author ((,class (:foreground ,fg3))))
    `(magit-hash ((,class (:foreground ,fg2))))
+   `(magit-cherry-unmatched ((,class (:foreground ,var))))
    `(rainbow-delimiters-unmatched-face ((,class :foreground ,warning)))
    `(magit-diff-file-header ((,class (:foreground ,fg2 :background ,bg3))))
    `(lazy-highlight ((,class (:foreground ,fg2 :background ,bg3))))
